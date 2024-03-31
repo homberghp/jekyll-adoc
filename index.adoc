@@ -30,6 +30,16 @@ public class HelloWorld {
 <1> Callout demonstrating the main method.
 
 
+[source,sql]
+----
+CREATE TABLE transactions (
+    transaction_id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY, -- <1>
+    user_id INT,
+    transaction_date DATE
+);
+----
+<1> Generated primary key.
+
 [source, html]
 ----
 {% for post in site.posts limit: 5 %}
