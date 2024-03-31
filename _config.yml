@@ -13,6 +13,7 @@ asciidoctor:
   base_dir: :docdir
   safe: unsafe
   attributes:
+    sectanchors: ''
     icons: font
     idseparator: _
     stylesdir: css

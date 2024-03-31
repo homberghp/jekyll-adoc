@@ -6,4 +6,6 @@ gem 'rake-jekyll', '~> 1.1.0'
 
 group :jekyll_plugins do
   gem 'jekyll-asciidoc', '~> 3.0.0'
+  gem 'thread_safe', '~> 0.3.6'
+  #gem 'jekyll-theme-hamilton'
 end
