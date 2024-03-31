@@ -19,7 +19,7 @@ For blog posts, Jekyll will recognize files under the `_post` directory, parse t
 
 To display a list of posts, use Jekyll syntax similar to the following:
 
-[sorce,java]
+[source,java]
 ----
 public class HelloWorld {
     public static void main(String[] args) {
